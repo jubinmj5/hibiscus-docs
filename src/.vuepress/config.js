@@ -3,6 +3,7 @@ import { searchPlugin } from '@vuepress/plugin-search'
 import { externalLinkIconPlugin } from '@vuepress/plugin-external-link-icon'
 import { hopeTheme } from "vuepress-theme-hope";
 import { mediumZoomPlugin } from '@vuepress/plugin-medium-zoom'
+import fullTextSearchPlugin from "vuepress-plugin-full-text-search2";
 import { sidebar } from './sidebar';
 
 export default defineUserConfig({
@@ -15,16 +16,15 @@ export default defineUserConfig({
     },
     collapsible: true,
     plugins: [
-        mediumZoomPlugin({
-            // options
-        }),
-        searchPlugin({
-            locales: {
-                '/': {
-                    placeholder: 'Search',
-                },
-            },
-        }),
+        mediumZoomPlugin({}),
+        fullTextSearchPlugin,
+        // searchPlugin({
+        //     locales: {
+        //         '/': {
+        //             placeholder: 'Search',
+        //         },
+        //     },
+        // }),
         externalLinkIconPlugin({}),
     ],
     theme: hopeTheme({
