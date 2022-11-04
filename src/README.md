@@ -7,11 +7,13 @@ actions:
     type: secondary
 features:
   - title: FastApi
-    details: Minimal setup with markdown-centered project structure helps you focus on writing.
+    details: FastAPI is a Web framework for developing RESTful APIs in Python. 
   - title: Pantsbuild
-    details: Enjoy the dev experience of Vue, use Vue components in markdown, and develop custom themes with Vue.
-  - title: Docker
-    details: VuePress generates pre-rendered static HTML for each page, and runs as an SPA once a page is loaded.
+    details: Pants 2 is a fast, scalable, user-friendly build system for codebases of all sizes.
   - title: Postgres
-    details: Providing a default theme out of the box. You can also choose a community theme or create your own one.
+    details: Postgres is a free and open-source relational database management system emphasizing extensibility and SQL compliance.
+  - title: APISIX
+    details: Apache APISIX provides open source API Gateway to manage microservices, delivering the ultimate performance, security, and scalable platform.  
+  - title: redis
+    details: Redis is an in-memory data structure store, used as a distributed, in-memory key–value database, cache and message broker and more. 
 footer: Copyright © 2022ff

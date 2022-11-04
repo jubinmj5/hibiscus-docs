@@ -8,9 +8,9 @@ import { sidebar } from './sidebar';
 
 export default defineUserConfig({
     lang: 'en-US',
-    title: 'Hibiscus',
+    title: 'HIBISCUS',
     displayFooter: true,
-    description: 'Just playing around',
+    description: 'Project Documentation',
     markdown: {
         toc: { includeLevel: [2, 3] }
     },

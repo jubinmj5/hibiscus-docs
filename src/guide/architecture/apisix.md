@@ -7,15 +7,15 @@ date: 2022-11-04
 ---
 # API SIX
 
-Apache [APISIX](https://apisix.apache.org) is the Api Gateway using in the project for routing traffic from different services, load balancing, user authentications and more. For development purpose we can use the docker [example](https://github.com/apache/apisix-docker/tree/master/example) provided by apisix.
+Apache [APISIX](https://apisix.apache.org) is the Api Gateway using in the project for routing traffic from different services, load balancing, user authentications and more. For development purpose, the docker [example](https://github.com/apache/apisix-docker/tree/master/example) provided by apisix can be used.
 
-Once APISIX is up and running we can use the [APISIX Dashboard](https://apisix.apache.org/docs/dashboard/USER_GUIDE/) for configuring the API Gateway as of now.
+Once APISIX is up and running, the [APISIX Dashboard](https://apisix.apache.org/docs/dashboard/USER_GUIDE/) can be used for configuring the API Gateway as of now.
 
 ## Upstream
 
 The upstream list contains the created upstream services (i.e., backend services) and allows load balancing and health checking of multiple target nodes of the upstream services. 
 
-We can user APISIX Dashboard to configure upstreams
+APISIX Dashboard can be used to configure upstreams
 
 * Goto Upstreams menu and click on create
 
@@ -40,16 +40,16 @@ Route also can be created from dashboard.
 
 * Fill the details and click next
 
-Need to enter name, path, request methods and keep the host empty in test enviornment.
-Path will the url path which is used to identity which service is to triger.
+Need to enter name, path, request methods and keep the host empty in test environment.
+Path will the url path which is used to identity which service is to trigger.
 
-For example the path `/api/payment/*` will route all the requests which is comming to the path to the upstream which we defining in the route.
+For example the path `/api/payment/*` will route all the requests which is coming to the path to the upstream which we defining in the route.
 
-Also we can select which all request methods should be accepted by the route.
+Also the request methods can be selected should be accepted by the route.
 
 * Select Upstream
 
-In the next stage we can select an already created upstream from the list or create a new on there.
+In the next stage select an already created upstream from the list or create a new on there.
 
 Select upstream and submit.
 
