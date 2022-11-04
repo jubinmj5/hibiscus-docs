@@ -18,7 +18,7 @@ export const sidebar = [
     {
         text: "Architecture",
         prefix: "/guide/architecture/",
-        link: "/guide/architecture/pantsbuild/",
+        link: "/guide/architecture/apisix/",
         collapsable: true,
         children: [                    
             {
