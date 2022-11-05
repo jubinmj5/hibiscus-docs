@@ -5,7 +5,7 @@ tag:
     - architecture
 date: 2022-11-04
 ---
-# API SIX
+# ASIX
 
 Apache [APISIX](https://apisix.apache.org) is the Api Gateway using in the project for routing traffic from different services, load balancing, user authentications and more. For development purpose, the docker [example](https://github.com/apache/apisix-docker/tree/master/example) provided by apisix can be used.
 

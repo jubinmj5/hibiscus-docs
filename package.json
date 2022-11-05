@@ -11,8 +11,10 @@
   },
   "devDependencies": {
     "@vuepress/client": "2.0.0-beta.53",
+    "@vuepress/plugin-git": "^2.0.0-beta.53",
     "@vuepress/plugin-medium-zoom": "^2.0.0-beta.53",
     "@vuepress/plugin-search": "^2.0.0-beta.53",
+    "@vuepress/plugin-toc": "^2.0.0-beta.53",
     "vue": "^3.2.41",
     "vuepress": "2.0.0-beta.53",
     "vuepress-plugin-full-text-search2": "^0.4.0",
